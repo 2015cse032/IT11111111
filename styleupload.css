@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(images.jpeg);
+    background-size: cover;
+     background-repeat: no-repeat;
+    font-family: sans-serif;
+   
+}
+.container {
+    position: absolute;
+    top: 50%;
+    /* margin: 80px 40px; */
+    left: 50%;
+    /* border: 1px solid #8a8080; */
+    padding: 24px;
+	background-color:rgba(0,0,0,0.4);
+	display:inline-block;
+/*rgba(247, 140, 2, 0.92);*/
+    transform: translate(-50%,-50%);
+    width: 950px;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+}
+/*user {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    /* position: absolute; */
+    /* top: calc(-100px/2); */
+    /* left: calc(50% - 50px); */
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+.container p
+{
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	color: #fff;
+}
+.container input /*box size */
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.container input[type="text"],
+.container input[type="password"]
+{
+	border: none; /*to remove box and make it line*/
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+}	
+::placeholder
+{
+	color: rgba(255,255,255,.5)
+}
+.container input[type="submit"]
+{
+	border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    background: rgba(55, 223, 16, 0.88);
+    cursor: pointer;
+    border-radius: 20px;}
+.container input [type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+.container a
+{
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}

@@ -1,0 +1,149 @@
+@import 'https://fonts.googleapis.com/css?family=Shadows+Into+Light';
+/*font-family: 'Shadows Into Light', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Shadows+Into+Light');
+/*font-family: 'Amatic SC', cursive;*/
+
+
+
+
+
+body
+{
+	margin:0;
+}
+header
+{	
+	color:black;
+	padding: 8px 0px 6px 40px;
+	height:60px;
+}
+header h1
+{
+	display:inline;
+	font-family:'Shadows Into Light', cursive;
+	font-weight:5000;
+	font-size:40px;
+	float:left;
+	margin-top:0px;
+	margin-right:20px;
+}
+nav ul
+{
+	display:inline;
+	padding:0px;
+	float:right;
+}
+nav ul li
+{
+	display:inline-block;
+	list-style-type:none;
+	color:black;
+	float:left;
+	margin-left:12px;
+}
+nav ul li a
+{
+	font-family:'Shadows Into Light', cursive;
+	color:black;
+	text-decoration:none;
+	
+}
+.homered
+{
+	font-family:'Shadows Into Light', cursive;
+	background-color:white;
+	padding:30px 10px 16px 10px;
+}
+.divider
+{
+	background-color:black;
+	height:10px;
+}
+.homeblack:hover
+{	
+	background-color:grey;
+	padding:30px 10px 30px 10px;	
+}
+.full_width_image
+{
+	background-image:url(/var/www/html/ITFINALPROJECT/images.jpeg);
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+}
+.head
+{
+	font-family:'Shadows Into Light', cursive;
+	float:center;
+	margin:0;
+	padding:9% 5% 0% 30%;
+	font-size:40px;
+	color:black;
+}
+.body
+{
+	font-family:'Shadows Into Light', cursive;
+	font:maroon;
+	margin:0% 15% 0% 10%;
+	font-size:25px;
+	color:black
+	float:center;
+	/*background-color:rgba(0,0,0,0.4);
+	display:inline-block;
+	padding:0% 0% 0% 0%;*/
+}	
+.bhome
+{
+	font-family:'Shadows Into Light', cursive;
+	float:left;
+	margin:0% 5% 0% 10%;
+	/*background-color:orange*/;
+	color:black;
+	/*border:2px solid maroon;*/
+	height:55px;
+	font-size:1.5em;
+	cursor:pointer;
+	font-weight:2px;
+	list-style-type:none;	
+}
+.footer
+{
+	background-color:black;
+	height:15px;
+	padding:0% 0% 0% 0%;
+	margin:20% 0% 0% 0%;
+
+}
+.login
+{
+	margin:0% 0% 0% 15%;
+	background: ;
+	color:black;
+	border:none;
+	height:55px;
+	font-size:1.7em;
+	padding:0.1em;
+	outline:none;
+	cursor:pointer;
+	font-weight:2px;
+	list-style-type:none;
+	
+}
+.panelclass
+{
+	font-family:'Shadows Into Light', cursive;
+	cursor:pointer;
+	float:center;
+	font-size:25px;
+	padding:0% 25% 0% 20%;
+}
+.panel
+{
+	font-family:'Shadows Into Light', cursive;
+	cursor:pointer;
+	float:center;
+	padding:0% 0% 0% 10%;
+}

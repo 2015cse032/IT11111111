@@ -1,0 +1,34 @@
+@import 'https://fonts.googleapis.com/css?family=Shadows+Into+Light';
+/*font-family: 'Shadows Into Light', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Shadows+Into+Light');
+/*font-family: 'Amatic SC', cursive;*/
+
+
+
+
+div.table
+{
+font-family:'Shadows Into Light', cursive;
+font-size:11px;
+color:black;
+border-width:5px;
+border-color:black;
+border-collapse:collapse;
+
+}
+div.table.th
+{
+border-width:5px;
+padding:8px;
+border-style:solid;
+border-color:black;
+
+}
+div.table.td
+{
+border-width:5px;
+padding:8px;
+border-style:solid;
+border-color:black;
+
+}

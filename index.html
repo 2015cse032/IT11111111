@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="stylelog.css"></link>
+<script>
+	function validateform()
+{
+var x=document.forms["myform"] ["email"].value;
+if(x==""){
+   alert("email should be filled out");
+return false;
+var y=document.forms["myform"]["password"].value;
+if(y==""){
+alert("password should be filled out");
+	return false;
+}
+</script>
+</head>
+<body1>
+<header>
+			<nav>
+				<h1><b>PRESI EDUCATIONS</b></h1>
+				<ul id="nav">
+					<li><b><a class="homeblack" href="first.html">HOME</a></b></li>
+					<li><b><a class="homeblack" href="contact.html">CONTACT US</a></b></li><!---------for the header----->
+					<li><b><a class="homeblack" href="logout.php">LOG OUT</a></b></li>
+				</ul>
+			</nav>
+		</header>
+	<div class="container">
+		
+			<form method="post" action="securelogin.php">
+				<p><b>Email</b></p>
+				<input type="text" name=email placeholder=" Email" required>
+				<p><b>Password</b></p>
+				<input type="Password" placeholder="Password" name="password"required pattern="^[A-Za-z0-9]+"required>
+				<input type="submit" name="login" value="Log-in">
+			</form>
+		<p>
+					Not a memeber?<a href="signup.php">   SIGN UP</a>
+				</p>
+		</div>
+</body1>
+</html>

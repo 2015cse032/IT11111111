@@ -1,0 +1,247 @@
+@import 'https://fonts.googleapis.com/css?family=Shadows+Into+Light';
+/*font-family: 'Shadows Into Light', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Shadows+Into+Light');
+/*font-family: 'Amatic SC', cursive;*/
+/*this is the code for the header*/
+
+
+
+
+body
+{
+	margin:0;
+}
+header
+{	
+	color:black;
+	padding: 8px 0px 6px 40px;
+	height:60px;
+}
+header h1
+{
+	display:inline;
+	font-family:'Shadows Into Light', cursive;
+	font-weight:5000;
+	font-size:40px;
+	float:left;
+	margin-top:0px;
+	margin-right:20px;
+position:fixed;
+}
+nav ul
+{
+	display:inline;
+	padding:0px;
+	float:right;
+
+}
+nav ul li
+{
+	display:inline-block;
+	list-style-type:none;
+	color:black;
+	float:left;
+	margin-left:12px;
+}
+nav ul li a
+{
+	font-family:'Shadows Into Light', cursive;
+	color:black;
+	text-decoration:none;
+	
+}
+.homered
+{
+	font-family:'Shadows Into Light', cursive;
+	background-color:white;
+	padding:30px 10px 16px 10px;
+}
+.divider
+{
+	background-color:black;
+	height:10px;
+}
+.homeblack:hover
+{	
+	background-color:grey;
+	padding:30px 10px 30px 10px;	
+}
+.full_width_image
+{
+	background-image:url(images.jpeg);
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+}
+.head
+{
+	font-family:'Shadows Into Light', cursive;
+	float:center;
+	margin:0;
+	padding:9% 5% 0% 30%;
+	font-size:40px;
+	color:black;
+}
+.body
+{
+	font-family:'Shadows Into Light', cursive;
+	font:maroon;
+	margin:0% 15% 0% 10%;
+	font-size:25px;
+	color:black
+	float:center;
+	/*background-color:rgba(0,0,0,0.4);
+	display:inline-block;
+	padding:0% 0% 0% 0%;*/
+}	
+.bhome
+{
+	font-family:'Shadows Into Light', cursive;
+	float:left;
+	margin:0% 5% 0% 10%;
+	/*background-color:orange*/;
+	color:black;
+	/*border:2px solid maroon;*/
+	height:55px;
+	font-size:1.5em;
+	cursor:pointer;
+	font-weight:2px;
+	list-style-type:none;	
+}
+.footer
+{
+	background-color:black;
+	height:15px;
+
+}
+.login
+{
+	margin:0% 0% 0% 15%;
+	background: ;
+	color:black;
+	border:none;
+	height:55px;
+	font-size:1.7em;
+	padding:0.1em;
+	outline:none;
+	cursor:pointer;
+	font-weight:2px;
+	list-style-type:none;
+	
+}
+.panelclass
+{
+	font-family:'Shadows Into Light', cursive;
+	cursor:pointer;
+	float:center;
+	font-size:25px;
+	padding:0% 25% 0% 20%;
+}
+.panel
+{
+	font-family:'Shadows Into Light', cursive;
+	cursor:pointer;
+	float:center;
+	padding:0% 0% 0% 10%;
+}
+
+
+
+/*this is the code for the body*/
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(images.jpeg);
+    background-size: cover;
+     background-repeat: no-repeat;
+    font-family: sans-serif;
+   
+}
+.container {
+    position: absolute;
+    top: 70%;
+    /* margin: 80px 40px; */
+    left: 50%;
+    /* border: 1px solid #8a8080; */
+    padding: 24px;
+	background-color:rgba(0,0,0,0.4);
+	display:inline-block;
+/*rgba(247, 140, 2, 0.92);*/
+    transform: translate(-50%,-50%);
+    width: 950px;
+    height: 1100px;
+    box-sizing: border-box;
+}
+
+}
+/*user {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    /* position: absolute; */
+    /* top: calc(-100px/2); */
+    /* left: calc(50% - 50px); */
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+.container p
+{
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	color: black;
+}
+.container input /*box size */
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.container input[type="text"],
+.container input[type="password"]
+{
+	border: none; /*to remove box and make it line*/
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+}	
+::placeholder
+{
+	color: rgba(255,255,255,.5)
+}
+.container input[type="submit"]
+{
+	border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    background: rgba(55, 223, 16, 0.88);
+    cursor: pointer;
+    border-radius: 20px;}
+.container input [type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+.container a
+{
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
